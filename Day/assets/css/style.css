@@ -786,15 +786,15 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
   border-radius: 50px;
-}
+} */
 
-.portfolio #portfolio-flters li {
+/* .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
@@ -806,16 +806,16 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   font-family: "Poppins", sans-serif;
-}
+} */
 
-.portfolio #portfolio-flters li:hover,
+/* .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #e82d2d;
-}
+} */
 
-.portfolio #portfolio-flters li:last-child {
+/* .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+} */
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
