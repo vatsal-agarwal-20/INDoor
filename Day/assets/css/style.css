@@ -748,17 +748,47 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta {
+/* .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center;
   background-size: cover;
-  padding: 120px 0;
+} */
+.cta-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center;
+  background-size: cover;
+  padding-left: 90px;
+}
+.cta-container h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+#phone{
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+#worker{
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+#tick{
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+}
+#arrow-1{
+  width: 200px;
+}
+#arrow-2{
+  width: 200px;
 }
 
-/* .cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-} */
 
 /* .cta p {
   color: #fff;
