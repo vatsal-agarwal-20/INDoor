@@ -670,6 +670,8 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  height: 400px;
+  width: 400px;
   text-align: center;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -709,7 +711,7 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .services .icon-box h4 a {
@@ -717,8 +719,8 @@ section {
 }
 
 .services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 25px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
@@ -760,6 +762,9 @@ section {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center;
   background-size: cover;
   padding-left: 90px;
+  padding-top: 20px;
+  margin-top: 100px;
+  
 }
 .cta-container h3 {
   color: #fff;
@@ -850,7 +855,9 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+.portfolio-info{
 
+}
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -987,7 +994,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# How it works
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
