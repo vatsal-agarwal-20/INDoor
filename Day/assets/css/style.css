@@ -171,6 +171,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
+  padding-left: 40px;
 }
 
 #header.fixed-top {
@@ -179,8 +180,8 @@ h6 {
 
 #header .logo {
   font-size: 30px;
-  margin: 0;
-  padding: 0;
+  margin-left: 30px;
+  padding-top: 12px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
@@ -193,6 +194,7 @@ h6 {
 
 #header .logo-pic img {
   height: 60px;
+  width: 115px;
   border-radius: 5px;
   opacity: 1;
   
@@ -210,6 +212,8 @@ h6 {
 */
 .navbar {
   padding: 0;
+  margin-left: auto;
+  padding-right: 50px;
 }
 
 .navbar ul {
