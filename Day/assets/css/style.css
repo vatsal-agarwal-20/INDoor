@@ -760,17 +760,15 @@ section {
 } */
 .cta-container{
   display: grid;
-  width: 100%;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   flex-wrap: nowrap;
-  /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center; */
-  background-color: #333333;
-  /* background-size: cover; */
-  /* padding-left: 90px; */
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center;
+  background-size: cover;
+  padding-left: 90px;
   padding-top: 20px;
   margin-top: 100px;
-
+  
 }
 .cta-container h3 {
   color: #fff;
@@ -795,33 +793,11 @@ section {
 }
 #arrow-1{
   width: 200px;
-  height: fit-content;
-  margin: auto 0;
 }
 #arrow-2{
   width: 200px;
-  height: fit-content;
-  margin: auto 0;
 }
 
-/* Added CSS for HOW IT WORKS */
-.how-it-works-container{
-width: 100%;
-background-color: #333333;
-}
-
-.how-it-works-grid{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  color: white;
-  font-weight: 600;
-  font-size: 1.2rem;
-  text-align: center;
-}
-#tick{
-  margin-top: 45px;
-}
 
 /* .cta p {
   color: #fff;
