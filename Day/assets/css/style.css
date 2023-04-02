@@ -571,34 +571,49 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
 
-.about .content ul {
+.about_content{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.about_img{
+  width: 50%;
+  height: 45%;
+  padding-left: 10px;
+}
+.content{
+ text-align: justify;
+ margin-left: 10px;
+}
+/* .about .content ul {
   list-style: none;
   padding: 0;
-}
+} */
 
-.about .content ul li {
+/* .about .content ul li {
   padding-bottom: 10px;
-}
+} */
 
-.about .content ul i {
+/* .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #cc1616;
-}
+} */
 
-.about .content p:last-child {
+/* .about .content p:last-child {
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us {
+/* .why-us {
   padding-top: 10px;
 }
 
@@ -640,7 +655,7 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Clients
@@ -1000,7 +1015,7 @@ section {
 /*--------------------------------------------------------------
 # How it works
 --------------------------------------------------------------*/
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #f9f9f9;
   text-align: center;
@@ -1114,7 +1129,7 @@ section {
 .pricing .featured .btn-buy:hover {
   background: #fff;
   color: #cc1616;
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
