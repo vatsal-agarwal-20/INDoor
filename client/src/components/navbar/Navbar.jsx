@@ -45,15 +45,13 @@ export const Navbar = () => {
           <p>
             <Link to="/RegisterAsProfessional">Register As Professional</Link>
           </p>
-          <p>
-            {data.role === "admin" ? (
+          {/* <p>
+            
               <Link to="/admin-dashboard">Admin Dashboard</Link>
-            ) : data.role === "professional" ? (
+            
               <Link to="/under-construction">Professional Dashboard</Link>
-            ) : (
-              <Link to="/under-construction">User Dashboard</Link>
-            )}
-          </p>
+            
+          </p> */}
           <p>
             <Link to="/ContactUs">Contact Us</Link>
           </p>

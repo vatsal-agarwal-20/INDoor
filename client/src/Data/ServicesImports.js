@@ -1,14 +1,14 @@
-import { services_appliance_repair, services_beauty_and_spa, services_business, services_electrician, services_event_management, services_house_cleaning, services_online_instructor, services_plumbing } from "./ServicesData";
+import { services_mechanic, services_pest_control, services_cooking, services_electrician, services_painting, services_cleaning, services_carpenter, services_plumbing } from "./ServicesData";
 
-let appliance_repair = services_appliance_repair;
-let beauty_and_spa = services_beauty_and_spa;
-let business = services_business;
+let mechanic = services_mechanic;
+let pest_control = services_pest_control;
+let cooking = services_cooking;
 let electrician = services_electrician;
-let event_management = services_event_management;
-let house_cleaning = services_house_cleaning;
-let online_instructor = services_online_instructor;
+let painting = services_painting;
+let cleaning = services_cleaning;
+let carpenter = services_carpenter;
 let plumbing = services_plumbing;
 
-const allServices = [...appliance_repair, ...beauty_and_spa, ...business, ...electrician, ...event_management, ...house_cleaning, ...online_instructor, ...plumbing];
+const allServices = [...mechanic, ...pest_control, ...cooking, ...electrician, ...painting, ...cleaning, ...carpenter, ...plumbing];
 
 export default allServices;

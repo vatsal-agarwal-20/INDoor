@@ -18,10 +18,10 @@ import business from "../assets/categories/business.jpg";
 
 export const categoriesData = [
     {
-        id: "appliance_repair",
+        id: "mechanic",
         icon_img: appliance_repair_icon,
         img: appliance_repair,
-        desc: 'Appliance Repair',
+        desc: 'Mechanic',
     },
     {
         id: "electrician",
@@ -36,35 +36,41 @@ export const categoriesData = [
         desc: 'Plumbing',
     },
     {
-        id: "house_cleaning",
+        id: "cleaning",
         icon_img: houseCleaning_icon,
         img: house_cleaning,
-        desc: 'House Cleaning',
+        desc: 'Cleaning',
     },
 
     {
-        id: "makeup_artist",
+        id: "pest_control",
         icon_img: makeup_artist_icon,
         img: makeup_artist,
-        desc: 'Beauty and Spa',
+        desc: 'Pest Control',
     },
     {
-        id: "online_instructor",
+        id: "carpenter",
         icon_img: instructor_icon,
         img: online_instructor,
-        desc: 'Online Instructor',
+        desc: 'Carpenter',
     },
     {
-        id: "event_management",
+        id: "painting",
         icon_img: event_management_icon,
         img: event_management,
-        desc: 'Manage Events',
+        desc: 'Painting',
     },
     {
-        id: "business",
+        id: "cooking",
         icon_img: business_icon,
         img: business,
-        desc: 'Business',
+        desc: 'Cooking',
+    },
+    {
+        id: "gardening",
+        icon_img: house_cleaning,
+        img: business,
+        desc: 'Gardening',
     },
 
 ]

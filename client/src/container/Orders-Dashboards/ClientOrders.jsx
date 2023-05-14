@@ -1,10 +1,10 @@
 import React from "react";
 import ClientOrderStyles from "./CommonStyles.module.css";
 
-import mixer_grinder_repair from "../../assets/appliance_repair/mixer_grinder_repair.jpg";
+import mixer_grinder_repair from "../../assets/mechanic/mixer_grinder_repair.jpg";
 import fan_repair from "../../assets/electrician/fan.jpg";
-import pest_control from "../../assets/house_cleaning/pest_control.jpg";
-import photographer from "../../assets/event_management/photography.jpg";
+import pest_control from "../../assets/cleaning/pest_control.jpg";
+import photographer from "../../assets/painting/photography.jpg";
 
 export const ClientOrders = () => {
   return (

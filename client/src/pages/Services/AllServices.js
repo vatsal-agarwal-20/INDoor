@@ -1,15 +1,15 @@
 import { Services } from '../../components/services/Services'
-import { services_appliance_repair, services_business, services_plumbing, services_beauty_and_spa, services_electrician, services_house_cleaning, services_online_instructor, services_event_management } from '../../Data/ServicesData'
+import { services_carpenter, services_plumbing, services_cleaning, services_electrician, services_pest_control, services_painting, services_cooking, services_mechanic, services_gardening } from '../../Data/ServicesData'
 
 
 
-export function ApplianceRepair() {
-    return (
-        <>
-            <Services servicesProps={services_appliance_repair} title={'Appliance Repair'} tagLine={'Explore the greatest our services.'} category="appliance_repair" />
-        </>
-    )
-}
+// export function ApplianceRepair() {
+//     return (
+//         <>
+//             <Services servicesProps={services_appliance_repair} title={'Appliance Repair'} tagLine={'Explore the greatest our services.'} category="appliance_repair" />
+//         </>
+//     )
+// }
 
 export const Electrician = () => {
     return (
@@ -27,42 +27,58 @@ export const Plumbing = () => {
     )
 }
 
-export const HouseCleaning = () => {
+export const Cleaning = () => {
     return (
         <>
-            <Services servicesProps={services_house_cleaning} title={'House Cleaning'} tagLine={'Explore the greatest our services.'} category="house_cleaning" />
+            <Services servicesProps={services_cleaning} title={'Cleaning'} tagLine={'Explore the greatest our services.'} category="cleaning" />
         </>
     )
 }
 
-export const OnlineInstructor = () => {
+export const Carpenter = () => {
     return (
         <>
-            <Services servicesProps={services_online_instructor} title={'Online Instructor'} tagLine={'Explore the greatest our services.'} category="online_instructor" />
+            <Services servicesProps={services_carpenter} title={'Carpenter'} tagLine={'Explore the greatest our services.'} category="carpenter" />
         </>
     )
 }
 
-export const BeautyAndSpa = () => {
+export const PestControl = () => {
     return (
         <>
-            <Services servicesProps={services_beauty_and_spa} title={'Beauty and Spa'} tagLine={'Explore the greatest our services.'} category="beauty_and_spa" />
+            <Services servicesProps={services_pest_control} title={'Pest Control'} tagLine={'Explore the greatest our services.'} category="pest control" />
         </>
     )
 }
 
-export const EventManagement = () => {
+export const Painting = () => {
     return (
         <>
-            <Services servicesProps={services_event_management} title={'Event Management'} tagLine={'Explore the greatest our services.'} category="event_management" />
+            <Services servicesProps={services_painting} title={'Painting'} tagLine={'Explore the greatest our services.'} category="painting" />
         </>
     )
 }
 
-export const Business = () => {
+export const Cooking = () => {
     return (
         <>
-            <Services servicesProps={services_business} title={'Business and Taxes'} tagLine={'Explore the greatest our services.'} category="business" />
+            <Services servicesProps={services_cooking} title={'Cooking'} tagLine={'Explore the greatest our services.'} category="cooking" />
+        </>
+    )
+}
+
+export const Mechanic = () => {
+    return (
+        <>
+            <Services servicesProps={services_mechanic} title={'Mechanic'} tagLine={'Explore the greatest our services.'} category="mechanic" />
+        </>
+    )
+}
+
+export const Gardening = () => {
+    return (
+        <>
+            <Services servicesProps={services_gardening} title={'Gardening'} tagLine={'Explore the greatest our services.'} category="gardening" />
         </>
     )
 }

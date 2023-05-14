@@ -13,40 +13,27 @@ import { ClientOrders } from './container/Orders-Dashboards/ClientOrders'
 import { SignUp } from './container/SignIn-SignUp/Sign-Up/SignUp';
 import { SignIn } from './container/SignIn-SignUp/Sign-In/SignIn';
 
-import { ApplianceRepair, Electrician, Plumbing, HouseCleaning, BeautyAndSpa, OnlineInstructor, EventManagement, Business } from './pages/Services/AllServices';
+import { Mechanic, Electrician, Plumbing, Cleaning, PestControl, Carpenter, Painting, Cooking } from './pages/Services/AllServices';
 
-import { AcRepairCheckout, MicrowaveRepairCheckout, RefrigeratorRepairCheckout, WashingMachineRepairCheckout, HouseholdApplianceRepairCheckout, MixerGrinderRepairCheckout, DishwasherRepairCheckout } from './pages/service-details-pages/appliance-repair/ApplianceRepairCheckout';
+import { AcRepairCheckout, MicrowaveRepairCheckout, RefrigeratorRepairCheckout, WashingMachineRepairCheckout, HouseholdApplianceRepairCheckout, MixerGrinderRepairCheckout, DishwasherRepairCheckout } from './pages/service-details-pages/mechanic/Mechanic';
 
 import { Fan, Switchboard, Fuse, NewInternalWiring, InverterServicing, LightFitting, CCTVCamera, Doorbell } from './pages/service-details-pages/electrician/ElectricianCheckout'
 
 import { WaterTank, TabAndMixer, BasinAndSink, ToiletAndBathroom, WaterLeakage, WholeHousePlumbing } from './pages/service-details-pages/plumbing/PlumbingCheckout';
 
-import { PestControl, BathroomCleaning, CarpetCleaning, DustCleaning, FurnitureCleaning, HouseDeepCleaning, HousePainting, KitchenDeepCleaning, SweepingAndMopping } from './pages/service-details-pages/house-cleaning/HouseCleaning';
+import { BathroomCleaning, CarpetCleaning, DustCleaning, FurnitureCleaning, HouseDeepCleaning, HousePainting, KitchenDeepCleaning, SweepingAndMopping } from './pages/service-details-pages/cleaning/Cleaning';
 
-import { HairSalonForMen, HairStylingForWomen, MakeupAndFaceCare, MassageAndTherapy, SkinCare } from './pages/service-details-pages/beauty-and-spa/BeautyAndSpa';
+import { HairSalonForMen, HairStylingForWomen, MakeupAndFaceCare, MassageAndTherapy, SkinCare } from './pages/service-details-pages/pest_control/PestAndControl';
 
-import { CAForBusiness, BusinessConsultancy, GST, TaxPlanning } from './pages/service-details-pages/business/Business';
-import { CompleteEventManagement, Decoration, EventPlanning, FoodAndCatering, MusicAndSound, Photography } from './pages/service-details-pages/event-management/EventManagement';
-import { Coding, CookingAndBaking, FitnessAndGym, HealthAndDiet, MusicInstructor, TuitionForKids } from './pages/service-details-pages/online-instructor/OnlineInstructor';
+import { CAForBusiness, BusinessConsultancy, GST, TaxPlanning } from './pages/service-details-pages/cooking/Cooking';
+import { CompleteEventManagement, Decoration, EventPlanning, FoodAndCatering, MusicAndSound, Photography } from './pages/service-details-pages/painting/Painting';
+import { Coding, CookingAndBaking, FitnessAndGym, HealthAndDiet, MusicInstructor, TuitionForKids } from './pages/service-details-pages/carpenter/Carpenter';
 
 // pages for admin dashboard
 
-import AdminHome from "./pages/admin-dashboard-pages/admin-home/adminHome";
-import UserList from "./pages/admin-dashboard-pages/users/userList/UserList";
-import User from "./pages/admin-dashboard-pages/users/user/User";
 
-import ServiceList from "./pages/admin-dashboard-pages/services/serviceList/ServiceList";
-import Service from "./pages/admin-dashboard-pages/services/service/Service";
-import NewService from "./pages/admin-dashboard-pages/services/newServices/NewService";
-import ProfessionalList from "./pages/admin-dashboard-pages/professionals/professionalList/ProfessionalList";
-import Professional from "./pages/admin-dashboard-pages/professionals/professional/Professional";
-import NewProfessional from "./pages/admin-dashboard-pages/professionals/newProfessional/NewProfessional";
-import AdminList from "./pages/admin-dashboard-pages/admins/adminList/AdminList";
-import Admin from "./pages/admin-dashboard-pages/admins/admin/Admin";
-import NewAdmin from "./pages/admin-dashboard-pages/admins/newAdmin/NewAdmin";
 import CheckoutForm from './pages/checkout-form/CheckoutForm';
 import Error from './pages/Error Page/Error';
-import UnderConstruction from './pages/under-construction/UnderConstruction';
 import Success from './pages/Success/Success';
 
 
@@ -63,31 +50,16 @@ function App() {
         <Route path="/Contact-Us" element={<ContactUs />} />
         <Route path="/checkout/:category/:service" element={<CheckoutForm />} />
         <Route path="/Orders" element={<ClientOrders />} />
-        <Route path="/admin-dashboard" element={<AdminHome />} />
-
-        <Route path="/users" element={<UserList />} />
-        <Route path="/user/:userId" element={<User />} />
-        <Route path="/services" element={<ServiceList />} />
-        <Route path="/service/:ServiceId" element={<Service />} />
-        <Route path="/newService" element={<NewService />} />
-
-        <Route path="/professionals" element={<ProfessionalList />} />
-        <Route path="/professional/:professionalId" element={<Professional />} />
-        <Route path="/createProfessional" element={<NewProfessional />} />
-
-        <Route path="/admins" element={<AdminList />} />
-        <Route path="/admin/:adminId" element={<Admin />} />
-        <Route path="/newAdmin" element={<NewAdmin />} />
 
         {/* Link in pages/services/ServicesCategories*/}
-        <Route path="/Categories/appliance_repair" element={<ApplianceRepair />} />
+        <Route path="/Categories/appliance_repair" element={<Mechanic />} />
         <Route path="/Categories/electrician" element={<Electrician />} />
         <Route path="/Categories/plumbing" element={<Plumbing />} />
-        <Route path="/Categories/house_cleaning" element={<HouseCleaning />} />
-        <Route path="/Categories/makeup_artist" element={<BeautyAndSpa />} />
-        <Route path="/Categories/online_instructor" element={<OnlineInstructor />} />
-        <Route path="/Categories/event_management" element={<EventManagement />} />
-        <Route path="/Categories/business" element={<Business />} />
+        <Route path="/Categories/house_cleaning" element={<Cleaning />} />
+        <Route path="/Categories/makeup_artist" element={<PestControl />} />
+        <Route path="/Categories/online_instructor" element={<Carpenter />} />
+        <Route path="/Categories/event_management" element={<Painting />} />
+        <Route path="/Categories/business" element={<Cooking />} />
 
 
         {/* Link in components/services/services.jsx */}
@@ -155,7 +127,6 @@ function App() {
         <Route path="/RegisterAsProfessional" element={<RegisterAsProfessional />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="*" element={<Error />} />
-        <Route path="/under-construction" element={<UnderConstruction />} />
         <Route path="/success.html" element={<Success />} />
       </Routes>
 
