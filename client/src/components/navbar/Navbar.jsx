@@ -31,8 +31,12 @@ export const Navbar = () => {
   return (
     <div className={navbarStyles.navbar}>
       <div className={navbarStyles.navbar_links_logo}>
-        <img src={logo} alt="logo" />
+        <div className={navbarStyles.logo_container1}>
+         <Link to ="/"> <img src={logo} alt="logo" /></Link>
+          <Link to = "/"><h1 className={navbarStyles.website_name}>INDoor</h1></Link>
+        </div>
       </div>
+     
 
       <div className={navbarStyles.navbar_links}>
         <div className={navbarStyles.navbar_links_container}>
