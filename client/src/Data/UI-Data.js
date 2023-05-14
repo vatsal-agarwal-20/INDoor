@@ -36,56 +36,56 @@ export const testimonials = [
         id: 'testimonial_1',
         swiperId: 'SwiperTestimonial_1',
         name: 'Ashish Vats',
-        // comment: 'Very good service, very friendly and professional. They are polite and highly skilled I recommend them to anyone.',
+        comment: 'An Aspiring Web Developer. Constantly looking for new things to learn.',
         avatar: avatar1
     },
     {
         id: 'testimonial_2',
         swiperId: 'SwiperTestimonial_2',
         name: 'Palak Garg',
-        // comment: 'Fast and friendly service.Professionals here are very skilled and serious about their work. I recommend them to anyone.',
+        comment: 'An Aspiring Web Developer. Constantly looking for new things to learn.',
         avatar: avatar2
     },
     {
         id: 'testimonial_3',
         swiperId: 'SwiperTestimonial_3',
         name: 'Vatsal Agrawal',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'An Aspiring Web Developer. Constantly looking for new things to learn.',
         avatar: avatar3
     },
     {
         id: 'testimonial_4',
         swiperId: 'SwiperTestimonial_4',
         name: 'Shubhi Agrawal',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'The code wizards behind exceptional app experiences.',
         avatar: avatar4
     },
     {
         id: 'testimonial_5',
         swiperId: 'SwiperTestimonial_5',
         name: 'Aviral Shrivastava',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'The code wizards behind exceptional app experiences.',
         avatar: avatar5
     },
     {
         id: 'testimonial_6',
         swiperId: 'SwiperTestimonial_6',
         name: 'Naveen Bojja',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'An Aspiring Web Developer. Constantly looking for new things to learn.',
         avatar: avatar6
     },
     {
         id: 'testimonial_7',
         swiperId: 'SwiperTestimonial_7',
         name: 'Priya Singh',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'The code wizards behind exceptional app experiences.',
         avatar: avatar7
     },
     {
         id: 'testimonial_8',
         swiperId: 'SwiperTestimonial_8',
         name: 'Mrunmayee Mohanty',
-        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        comment: 'The code wizards behind exceptional app experiences.',
         avatar: avatar8
     },
     
