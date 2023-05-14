@@ -21,7 +21,7 @@ export const Testimonials = () => {
           >
             {testimonials.map((testimonial) => (
               <div
-                key={testimonial.id}
+                key={testimonial.id} 
                 className={testimonialsStyles.testimonial_card}
               >
                 <div className={testimonialsStyles.text}>
