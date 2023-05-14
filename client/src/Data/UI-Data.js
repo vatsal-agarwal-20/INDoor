@@ -1,9 +1,14 @@
 import shield from "../assets/icons/quality-badge.svg";
 import headphone from "../assets/icons/thumbs-up.svg";
 import thumbsUp from "../assets/icons/handshake.svg";
-import avatar1 from "../assets/Images/testimonial-1.jpg";
-import avatar2 from "../assets/Images/testimonial-2.jpg";
-import avatar3 from "../assets/Images/testimonial-3.jpg";
+import avatar1 from "../assets/Images/ashish.jpg";
+import avatar2 from "../assets/Images/Palak.jpg";
+import avatar3 from "../assets/Images/vatsal.jpg";
+import avatar4 from "../assets/Images/shubhi.jpg";
+import avatar5 from "../assets/Images/aviral.jpeg";
+import avatar6 from "../assets/Images/naveen.jpg";
+import avatar7 from "../assets/Images/priya.jpg";
+import avatar8 from "../assets/Images/mrunmayee.jpg";
 
 export const featureItems = [
     {
@@ -30,24 +35,60 @@ export const testimonials = [
     {
         id: 'testimonial_1',
         swiperId: 'SwiperTestimonial_1',
-        name: 'Prashant',
-        comment: 'Very good service, very friendly and professional. They are polite and highly skilled I recommend them to anyone.',
+        name: 'Ashish Vats',
+        // comment: 'Very good service, very friendly and professional. They are polite and highly skilled I recommend them to anyone.',
         avatar: avatar1
     },
     {
         id: 'testimonial_2',
         swiperId: 'SwiperTestimonial_2',
-        name: 'Yash',
-        comment: 'Fast and friendly service.Professionals here are very skilled and serious about their work. I recommend them to anyone.',
+        name: 'Palak Garg',
+        // comment: 'Fast and friendly service.Professionals here are very skilled and serious about their work. I recommend them to anyone.',
         avatar: avatar2
     },
     {
         id: 'testimonial_3',
         swiperId: 'SwiperTestimonial_3',
-        name: 'Rajesh',
-        comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        name: 'Vatsal Agrawal',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
         avatar: avatar3
-    }
+    },
+    {
+        id: 'testimonial_4',
+        swiperId: 'SwiperTestimonial_4',
+        name: 'Shubhi Agrawal',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        avatar: avatar4
+    },
+    {
+        id: 'testimonial_5',
+        swiperId: 'SwiperTestimonial_5',
+        name: 'Aviral Shrivastava',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        avatar: avatar5
+    },
+    {
+        id: 'testimonial_6',
+        swiperId: 'SwiperTestimonial_6',
+        name: 'Naveen Bojja',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        avatar: avatar6
+    },
+    {
+        id: 'testimonial_7',
+        swiperId: 'SwiperTestimonial_7',
+        name: 'Priya Singh',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        avatar: avatar7
+    },
+    {
+        id: 'testimonial_8',
+        swiperId: 'SwiperTestimonial_8',
+        name: 'Mrunmayee Mohanty',
+        // comment: 'super fast service. They reached at the door at very next day I ordered it. I Highly recommend them to anyone.',
+        avatar: avatar8
+    },
+    
 ]
 
 export const stepsData = [
