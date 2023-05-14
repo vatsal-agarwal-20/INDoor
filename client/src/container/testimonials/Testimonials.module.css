@@ -46,8 +46,8 @@
 .image img {
   object-fit: cover;
   background-color: tomato;
-  height: 120px;
-  width: 120px;
+  height: 140px;
+  width: 140px;
   border-radius: 50%;
   border: 5px solid white;
   background: no-repeat center/cover;
@@ -77,7 +77,7 @@
 .person {
   color: white;
   position:absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -100%);
   font-size: 3rem;
