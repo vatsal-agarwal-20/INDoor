@@ -8,7 +8,7 @@ export const Steps = () => {
   Aos.init({ duration: 1000 });
   return (
     <div className={stepsStyles.steps}>
-      <h4>Fixing made easy with Fixerr.</h4>
+      <h4>Fixing made easy with INDoor.</h4>
       <h5>We will fix anything in your home with few easy steps.</h5>
       <div className={stepsStyles.steps_container}>
         {stepsData.map((data) => (

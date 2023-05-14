@@ -14,8 +14,8 @@ export const Testimonials = () => {
     <>
       <section>
         <div className={testimonialsStyles.container}>
-          <h4>Testimonials</h4>
-          <h5>The stunning results our customers have experienced</h5>
+          <h4>Our Team</h4>
+          <h5>The talented developers behind INDoor</h5>
           <div
             className={`${testimonialsStyles.content} ${testimonialsStyles.testimonials_large_screen}`}
           >

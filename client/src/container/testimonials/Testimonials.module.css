@@ -76,13 +76,14 @@
 
 .person {
   color: white;
-  position: absolute;
+  position:absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -100%);
   font-size: 3rem;
   font-weight: 600;
-}
+  white-space: nowrap;
+ }
 
 @media screen and (max-width: 1000px) {
   .testimonials_large_screen {
