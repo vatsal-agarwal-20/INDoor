@@ -19,3 +19,6 @@
     git clone https://github.com/your-username/INDoor.git
   </li>
 </ol>
+
+<h1> Website Snapshots</h1>
+<img src=
