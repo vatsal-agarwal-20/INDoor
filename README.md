@@ -13,5 +13,7 @@
 <li>Back-end: Node.js, Express.js</li>
 <li>Database: MongoDB.</li>
 
-
-
+<h2>To get started with the INDoor website locally, follow these steps:</h2>
+<ol>
+  <li>Clone the repository:</li>
+</ol>
