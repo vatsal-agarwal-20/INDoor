@@ -15,5 +15,7 @@
 
 <h2>To get started with the INDoor website locally, follow these steps:</h2>
 <ol>
-  <li>Clone the repository:</li>
+  <li>Clone the repository:
+    git clone https://github.com/your-username/INDoor.git
+  </li>
 </ol>
