@@ -7,3 +7,11 @@
 <li>Book and schedule services as per your requirements.</li>
 <li>Register as a professional and offer your services through the platform.</li>
 <li>Contact the INDoor team for any queries or support.</li>
+
+<h1>Technologies Used</h1>
+<li>Front-end: HTML, CSS, JavaScript.</li>
+<li>Back-end: Node.js, Express.js</li>
+<li>Database: MongoDB.</li>
+
+
+
