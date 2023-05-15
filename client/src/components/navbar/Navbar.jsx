@@ -31,7 +31,7 @@ export const Navbar = () => {
   return (
     <div className={navbarStyles.navbar}>
       <div className={navbarStyles.navbar_links_logo}>
-        <img src={logo} alt="logo" />
+        <Link to="/"><img src={logo} alt="logo" /></Link>
       </div>
 
       <div className={navbarStyles.navbar_links}>

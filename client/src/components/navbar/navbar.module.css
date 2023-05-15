@@ -19,7 +19,13 @@
 }
 
 .navbar_links_logo img {
-  width: 70px;
+  margin-top: 10px;
+  width: 120px;
+  border-radius: 10%;
+  transition: transition .3s ease-in-out;
+}
+.navbar_links_logo img:hover{
+  transform: scale(1.1);
 }
 
 .navbar_links_container {
