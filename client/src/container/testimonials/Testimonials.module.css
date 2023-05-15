@@ -26,7 +26,7 @@
 }
 
 .testimonial_card {
-  min-height: 400px;
+  min-height: 350px;
   width: 350px;
   background-color: white;
   border-radius: 10px;
@@ -38,10 +38,10 @@
 }
 
 .text {
-  padding: 2.2em;
+  padding: 2.2rem;
   line-height: 1.7em;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
 }
 .image img {
   object-fit: cover;
@@ -61,7 +61,7 @@
 
 .footer {
   background: var(--gradient-text);
-  height: 140px;
+  height: 150px;
   border-radius: 0 0 10px 10px;
   position: relative;
 }
@@ -76,14 +76,14 @@
 
 .person {
   color: white;
-  position:absolute;
-  top: 80%;
+  position: absolute;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -100%);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   white-space: nowrap;
- }
+}
 
 @media screen and (max-width: 1000px) {
   .testimonials_large_screen {

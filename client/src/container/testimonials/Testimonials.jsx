@@ -33,9 +33,9 @@ export const Testimonials = () => {
                   <div className={testimonialsStyles.image}>
                     <img src={testimonial.avatar} alt="user" />
                   </div>
-                  <h2 className={testimonialsStyles.person}>
+                  <h3 className={testimonialsStyles.person}>
                     {testimonial.name}
-                  </h2>
+                  </h3>
                 </div>
               </div>
             ))}

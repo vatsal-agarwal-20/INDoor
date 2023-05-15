@@ -49,7 +49,7 @@ export const testimonials = [
     {
         id: 'testimonial_3',
         swiperId: 'SwiperTestimonial_3',
-        name: 'Vatsal Agrawal',
+        name: 'Vatsal Agarwal',
         comment: 'An Aspiring Web Developer. Constantly looking for new things to learn.',
         avatar: avatar3
     },
@@ -63,7 +63,7 @@ export const testimonials = [
     {
         id: 'testimonial_5',
         swiperId: 'SwiperTestimonial_5',
-        name: 'Aviral Shrivastava',
+        name: 'Aviral Srivastava',
         comment: 'The code wizards behind exceptional app experiences.',
         avatar: avatar5
     },
