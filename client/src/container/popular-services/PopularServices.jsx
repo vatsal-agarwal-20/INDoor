@@ -7,7 +7,7 @@ export const PopularServices = () => {
       servicesProps={popularServices}
       // category={popularServices.category}
       title={"Most Popular Services"}
-      tagLine={"Explore the greatest our services."}
+      tagLine={"Explore the greatest of our services."}
     />
   );
 };

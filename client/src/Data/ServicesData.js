@@ -57,7 +57,7 @@ import color_consultation from "../assets/painting/color_consultation.jpg"
 import exterior_painting from "../assets/painting/exterior_painting.jpg"
 import interior_painting from "../assets/painting/interior_painting.jpg"
 import power_washing from "../assets/painting/power_washing.jpg"
-import speciality_finishes from "../assets/painting/speciality_finishes.jpg"
+import speciality_finishes from "../assets/painting/Speciality_finishes.jpg"
 
 // Cooking
 import catering from "../assets/cooking/catering.jpg";

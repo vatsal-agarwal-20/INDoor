@@ -37,5 +37,32 @@ export const Cities = [
     },
     {
         desc: 'Bhubaneshwar',
+    },
+    {
+        desc: 'Bhopal',
+    },
+    {
+        desc: 'Kohtri Kalan',
+    },
+    {
+        desc: 'Sehore',
+    },
+    {
+        desc: 'Ashta',
+    },
+    {
+        desc: 'MP Nagar',
+    },
+    {
+        desc: 'Shivaji Nagar',
+    },
+    {
+        desc: 'TT Nagar',
+    },
+    {
+        desc: 'Raisen Road',
+    },
+    {
+        desc: 'Bairagarh',
     }
 ] 
