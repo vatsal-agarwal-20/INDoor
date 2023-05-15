@@ -23,7 +23,6 @@
     "cdbreact": "^1.5.1",
     "dotenv": "^16.0.1",
     "framer-motion": "^6.3.11",
-    "nodemailer": "^6.9.2",
     "rc-footer": "^0.6.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

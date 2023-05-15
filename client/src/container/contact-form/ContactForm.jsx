@@ -68,7 +68,6 @@ export const ContactForm = () => {
         </div>
         <div className={ContactFormStyles.contact_form_wrapper}>
           <form ref={form} onSubmit={sendEmail}>
-          <form action="/contact" method="POST"></form>
             <div className={ContactFormStyles.form_item}>
               <input type="text" name="user_name" required />
               <label>Name:</label>
