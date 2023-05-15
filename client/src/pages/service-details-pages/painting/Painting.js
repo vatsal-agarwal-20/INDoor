@@ -1,50 +1,50 @@
 import { ServicesCheckout } from '../ServicesCheckout'
 import { services_painting } from '../../../Data/ServicesData'
 
-export const CompleteEventManagement = () => {
+export const CabinetPainting = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[0].desc} desc={services_painting[0].checkout_desc} img={services_painting[0].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[0].desc} desc={services_painting[0].checkout_desc} img={services_painting[0].img} category="Painting" />
         </>
     )
 }
 
-export const Decoration = () => {
+export const ColorConsultation = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[1].desc} desc={services_painting[1].checkout_desc} img={services_painting[1].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[1].desc} desc={services_painting[1].checkout_desc} img={services_painting[1].img} category="Painting" />
         </>
     )
 }
 
-export const Photography = () => {
+export const ExteriorPainting = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[2].desc} desc={services_painting[2].checkout_desc} img={services_painting[2].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[2].desc} desc={services_painting[2].checkout_desc} img={services_painting[2].img} category="Painting" />
         </>
     )
 }
 
-export const EventPlanning = () => {
+export const InteriorPainting = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[3].desc} desc={services_painting[3].checkout_desc} img={services_painting[3].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[3].desc} desc={services_painting[3].checkout_desc} img={services_painting[3].img} category="Painting" />
         </>
     )
 }
 
-export const FoodAndCatering = () => {
+export const PowerWashing = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[4].desc} desc={services_painting[4].checkout_desc} img={services_painting[4].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[4].desc} desc={services_painting[4].checkout_desc} img={services_painting[4].img} category="Painting" />
         </>
     )
 }
 
-export const MusicAndSound = () => {
+export const SpecialityFinishes = () => {
     return (
         <>
-            <ServicesCheckout title={services_painting[5].desc} desc={services_painting[5].checkout_desc} img={services_painting[5].img} category="Manage Events" />
+            <ServicesCheckout title={services_painting[5].desc} desc={services_painting[5].checkout_desc} img={services_painting[5].img} category="Painting" />
         </>
     )
 }

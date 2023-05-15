@@ -1,15 +1,16 @@
-// mechanic
+import appliance_repair from "../assets/categories/appliance_repair.jpg"
+import pest_control from "../assets/categories/pest_control.jpg"
+
+// Mechanic
 import ac_repair from "../assets/mechanic/ac_repair.jpg";
 import washing_machine_repair from "../assets/mechanic/washing_machine_repair.jpg";
 import microwave_repair from "../assets/mechanic/microwave_repair.jpg";
-import water_heater_repair from "../assets/mechanic/water_heater_repair.jpg";
 import refrigerator_repair from "../assets/mechanic/refrigerator_repair.jpg";
 import mixer_grinder_repair from "../assets/mechanic/mixer_grinder_repair.jpg";
 import dishwasher_repair from "../assets/mechanic/dishwasher_repair.jpg";
-import household_appliances_repair from "../assets/mechanic/household_appliances_repair.jpg";
 
 
-// electrician
+// Electrician
 import fan from "../assets/electrician/fan.jpg";
 import switchboard from "../assets/electrician/switchboard.jpg";
 import new_internal_wiring from "../assets/electrician/new_internal_wiring.jpg";
@@ -19,7 +20,7 @@ import door_bell from "../assets/electrician/door_bell.jpg";
 import fuse from "../assets/electrician/fuse.jpg";
 import light_fitting from "../assets/electrician/light_fitting.jpg";
 
-// plumbing
+// Plumbing
 import water_tank from "../assets/plumbing/water_tank.jpg";
 import tab_and_mixer from "../assets/plumbing/tab_and_mixer.jpg";
 import basin_and_sink from "../assets/plumbing/basin_and_sink.jpg";
@@ -27,46 +28,50 @@ import toilet_and_bathroom from "../assets/plumbing/toilet_and_bathroom.jpg";
 import water_leakage from "../assets/plumbing/water_leakage.jpg";
 import whole_house_plumbing from "../assets/plumbing/whole_house_plumbing.jpg";
 
-// House cleaning
+// Cleaning
 import carpet_cleaning from "../assets/cleaning/carpet_cleaning.jpg";
 import house_deep_cleaning from "../assets/cleaning/house_deep_cleaning.jpg";
 import kitchen_deep_cleaning from "../assets/cleaning/kitchen_deep_cleaning.jpg";
-import pest_control from "../assets/cleaning/pest_control.jpg";
-import house_painting from "../assets/cleaning/house_painting.jpg";
 import sweeping_and_mopping from "../assets/cleaning/sweeping_and_mopping.jpg";
 import dust_cleaning from "../assets/cleaning/dust_cleaning.jpg";
 import bathroom_cleaning from "../assets/cleaning/bathroom_cleaning.jpg";
 import furniture_cleaning from "../assets/cleaning/furniture_cleaning.jpg";
 
-// online Instructor
-import coding from "../assets/carpenter/coding.jpg";
-import health_and_diet from "../assets/carpenter/health_and_diet.jpg";
-import cooking_and_baking from "../assets/carpenter/cooking_and_baking.jpg";
-import fitness_and_gym from "../assets/carpenter/fitness_and_gym.jpg";
-import tuition_for_kids from "../assets/carpenter/tuition_for_kids.jpg";
-import music_instructor from "../assets/carpenter/music_instructor.jpg";
+// Carpenter
+import cabinetry from "../assets/carpenter/cabinetry.jpg";
+import custom from "../assets/carpenter/custom.jpg";
+import furniture_restoration from "../assets/carpenter/furniture_restoration.jpg";
+import installation from "../assets/carpenter/installation.jpg";
+
 
 // Beauty and Spa
-import makeup_and_face_care from "../assets/pest_control/makeup_and_face_care.jpg";
-import hairstyling_for_women from "../assets/pest_control/hairstyling_for_women.jpg";
-import massage_and_therapy from "../assets/pest_control/massage_and_therapy.jpg";
-import hair_salon_for_men from "../assets/pest_control/hair_salon_for_men.jpg";
-import skin_care from "../assets/pest_control/skin_care.jpg";
+import bed_bug_extermination from "../assets/pest_control/bed_bug_extermination.jpg";
+import green_pest_control from "../assets/pest_control/green_pest_control.jpg";
+import mosquito_control from "../assets/pest_control/mosquito_control.jpg";
+import rodent_control from "../assets/pest_control/rodent_control.jpg";
+import termite_control from "../assets/pest_control/termite_control.jpg";
 
-// Event Management
-import event_management from "../assets/painting/event_management.jpg"
-import decoration from "../assets/painting/decoration.jpg"
-import event_planning from "../assets/painting/event_planning.jpg"
-import food_and_catering from "../assets/painting/food_and_catering.jpg"
-import music_and_sound from "../assets/painting/music_and_sound.jpg"
-import photography from "../assets/painting/photography.jpg"
+// Painting
+import cabinet_painting from "../assets/painting/cabinet_painting.jpg"
+import color_consultation from "../assets/painting/color_consultation.jpg"
+import exterior_painting from "../assets/painting/exterior_painting.jpg"
+import interior_painting from "../assets/painting/interior_painting.jpg"
+import power_washing from "../assets/painting/power_washing.jpg"
+import speciality_finishes from "../assets/painting/speciality_finishes.jpg"
 
-// Business
-import ca_for_business from "../assets/cooking/ca_for_business.jpg";
-import business_consultancy from "../assets/cooking/business_consultancy.jpg";
-import tax_planning from "../assets/cooking/tax_planning.jpg";
-import GST from "../assets/cooking/GST.jpg";
+// Cooking
+import catering from "../assets/cooking/catering.jpg";
+import healthy_and_nutritional from "../assets/cooking/healthy_and_nutritional.jpg";
+import meal_delivery from "../assets/cooking/meal_delivery.jpg";
+import personal_chef from "../assets/cooking/personal_chef.jpg";
 
+// Gardening
+import edible_gardens from "../assets/gardening/edible_gardens.jpg"
+import garden_installation from "../assets/gardening/garden_installation.jpg"
+import garden_maintainence from "../assets/gardening/garden_maintainence.jpg"
+import irrigation from "../assets/gardening/irrigation.jpg"
+import landscape_lighting from "../assets/gardening/landscape_lighting.jpg"
+import organic_gardening from "../assets/gardening/organic_gardening.jpg"
 
 export const popularServices = [
     {
@@ -84,7 +89,23 @@ export const popularServices = [
         category: 'cleaning',
         status: "active",
         price: "Rs. 120.00",
-    }
+    },
+    {
+        id: 'termite_control',
+        desc: 'Termite Control',
+        img: pest_control,
+        category: 'pest_control',
+        status: "active",
+        price: "Rs. 120.00",
+    },
+    {
+        id: 'ac_repair',
+        desc: 'AC Repairing',
+        img: appliance_repair,
+        category: 'mechanic',
+        status: "active",
+        price: "Rs. 120.00",
+    },
 
 ]
 
@@ -234,16 +255,16 @@ export const services_plumbing = [
     }
 ]
 export const services_cleaning = [
-    {
-        serviceId: 15,
-        id: 'pest_control',
-        desc: 'Pest Control ',
-        img: pest_control,
-        checkout_desc: 'We are here to the give quality Pest control services to our costumers no matter what it takes. Thanks for Trusting us.',
-        category: 'cleaning',
-        status: "active",
-        price: "Rs. 120.00",
-    },
+    // {
+    //     serviceId: 15,
+    //     id: 'pest_control',
+    //     desc: 'Pest Control ',
+    //     img: pest_control,
+    //     checkout_desc: 'We are here to the give quality Pest control services to our costumers no matter what it takes. Thanks for Trusting us.',
+    //     category: 'cleaning',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // },
     {
         serviceId: 16,
         id: 'house_deep_cleaning',
@@ -274,16 +295,16 @@ export const services_cleaning = [
         status: "active",
         price: "Rs. 120.00",
     },
-    {
-        serviceId: 19,
-        id: 'house_painting',
-        desc: 'House Painting',
-        img: house_painting,
-        checkout_desc: 'We are here to the give quality House Painting services to our costumers no matter what it takes. Thanks for Trusting us.',
-        category: 'cleaning',
-        status: "active",
-        price: "Rs. 120.00",
-    },
+    // {
+    //     serviceId: 19,
+    //     id: 'house_painting',
+    //     desc: 'House Painting',
+    //     img: house_painting,
+    //     checkout_desc: 'We are here to the give quality House Painting services to our costumers no matter what it takes. Thanks for Trusting us.',
+    //     category: 'cleaning',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // },
     {
         serviceId: 20,
         id: 'sweeping_and_moping',
@@ -325,115 +346,116 @@ export const services_cleaning = [
         price: "Rs. 120.00",
     }
 ]
+
 export const services_carpenter = [
     {
         serviceId: 24,
-        id: 'coding',
-        desc: 'Coding Classes',
-        img: coding,
-        checkout_desc: 'We are here to the give quality Coding Classes to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'cabinetry',
+        desc: 'Cabinetry',
+        img: cabinetry,
+        checkout_desc: 'We are here to the give quality Cabinetry to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'carpenter',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 25,
-        id: 'health_and_diet',
-        desc: 'health and Diet Consultancy',
-        img: health_and_diet,
-        checkout_desc: 'We are here to the give quality Health and Diet consultancy to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'custom',
+        desc: 'Custom',
+        img: custom,
+        checkout_desc: 'We are here to the give quality Custom Carpentry Services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'carpenter',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 26,
-        id: 'cooking_and_baking',
-        desc: 'Cooking and Baking Classes',
-        img: cooking_and_baking,
-        checkout_desc: 'We are here to the give quality Cooking and Baking Classes to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'furniture_restoration',
+        desc: 'Furniture Restoration',
+        img: furniture_restoration,
+        checkout_desc: 'We are here to the give quality Furniture Restoration to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'carpenter',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 27,
-        id: 'fitness_and_gym',
-        desc: 'Fitness and Gym Consultancy',
-        img: fitness_and_gym,
-        checkout_desc: 'We are here to the give quality Fitness and Gym consultancy to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'installation',
+        desc: 'Installation',
+        img: installation,
+        checkout_desc: 'We are here to the give quality Installation Services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'carpenter',
         status: "active",
         price: "Rs. 120.00",
     },
-    {
-        serviceId: 28,
-        id: 'music_instructor',
-        desc: 'Music Instructor',
-        img: music_instructor,
-        checkout_desc: 'We are here to the give quality Music Classes to our costumers no matter what it takes. Thanks for Trusting us.',
-        category: 'carpenter',
-        status: "active",
-        price: "Rs. 120.00",
-    },
-    {
-        serviceId: 29,
-        id: 'tuition_for_kids',
-        desc: 'Tuition For Kids',
-        img: tuition_for_kids,
-        checkout_desc: 'We are here to the give quality Tuitions to Kids no matter what it takes. Thanks for Trusting us.',
-        category: 'carpenter',
-        status: "active",
-        price: "Rs. 120.00",
-    }
+    // {
+    //     serviceId: 28,
+    //     id: 'music_instructor',
+    //     desc: 'Music Instructor',
+    //     img: music_instructor,
+    //     checkout_desc: 'We are here to the give quality Music Classes to our costumers no matter what it takes. Thanks for Trusting us.',
+    //     category: 'carpenter',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // },
+    // {
+    //     serviceId: 29,
+    //     id: 'tuition_for_kids',
+    //     desc: 'Tuition For Kids',
+    //     img: tuition_for_kids,
+    //     checkout_desc: 'We are here to the give quality Tuitions to Kids no matter what it takes. Thanks for Trusting us.',
+    //     category: 'carpenter',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // }
 ]
 export const services_pest_control = [
     {
         serviceId: 30,
-        id: 'makeup_and_face_care',
-        desc: 'Makeup and face care',
-        img: makeup_and_face_care,
-        checkout_desc: 'We are here to the give quality Makeup and face care services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'bed_bug_extermination',
+        desc: 'Bed Bug Extermination',
+        img: bed_bug_extermination,
+        checkout_desc: 'We are here to the give quality Bed Bug Extermination services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'pest_control',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 31,
-        id: 'hairstyling_for_women',
-        desc: 'Hairstyling for women',
-        img: hairstyling_for_women,
-        checkout_desc: 'We are here to the give quality Hairstyling for Women service to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'green_pest_control',
+        desc: 'Green Pest Control',
+        img: green_pest_control,
+        checkout_desc: 'We are here to the give quality Green Pest Control service to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'pest_control',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 32,
-        id: 'massage_and_therapy',
-        desc: 'Massage and Therapy ',
-        img: massage_and_therapy,
-        checkout_desc: 'We are here to the give quality Massage and Therapy services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'mosquito_control',
+        desc: 'Mosquito Control',
+        img: mosquito_control,
+        checkout_desc: 'We are here to the give quality Mosquito Control services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'pest_control',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 33,
-        id: 'hair_salon_for_men',
-        desc: 'Hair solon for men',
-        img: hair_salon_for_men,
-        checkout_desc: 'We are here to the give quality Hair salon for men service to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'rodent_control',
+        desc: 'Rodent Control',
+        img: rodent_control,
+        checkout_desc: 'We are here to the give quality Rodent Control service to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'pest_control',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 34,
-        id: 'skin_care',
-        desc: 'Skin Care',
-        img: skin_care,
-        checkout_desc: 'We are here to the give quality Skin care services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'termite_control',
+        desc: 'Termite Control',
+        img: termite_control,
+        checkout_desc: 'We are here to the give quality Termite Control services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'pest_control',
         status: "active",
         price: "Rs. 120.00",
@@ -442,60 +464,60 @@ export const services_pest_control = [
 export const services_painting = [
     {
         serviceId: 35,
-        id: 'complete_painting',
-        desc: 'Event Management',
-        img: event_management,
-        checkout_desc: 'We are here to the give quality Event Management services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'cabinet_painting',
+        desc: 'Cabinet Painting',
+        img: cabinet_painting,
+        checkout_desc: 'We are here to the give quality Cabinet Painting services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 36,
-        id: 'decoration',
-        desc: 'Decoration',
-        img: decoration,
-        checkout_desc: 'We are here to the give quality Decoration services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'color_consultation',
+        desc: 'Color Consultation',
+        img: color_consultation,
+        checkout_desc: 'We are here to the give quality Color Consultation services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 37,
-        id: 'photography',
-        desc: 'Photography',
-        img: photography,
-        checkout_desc: 'We are here to the give quality Photography services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'exterior_painting',
+        desc: 'Exterior Painting',
+        img: exterior_painting,
+        checkout_desc: 'We are here to the give quality Exterior Painting services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 38,
-        id: 'event_planning',
-        desc: 'Event Planning',
-        img: event_planning,
-        checkout_desc: 'We are here to the give quality Event Planning services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'interior_painting',
+        desc: 'Interior Painting',
+        img: interior_painting,
+        checkout_desc: 'We are here to the give quality Interior Painting services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 39,
-        id: 'food_and_catering',
-        desc: 'Food and Catering',
-        img: food_and_catering,
-        checkout_desc: 'We are here to the give quality Food and Catering services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'power_washing',
+        desc: 'Power Washing',
+        img: power_washing,
+        checkout_desc: 'We are here to the give quality Power Washing services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 40,
-        id: 'music_and_sound',
-        desc: 'Music and Sound',
-        img: music_and_sound,
-        checkout_desc: 'We are here to the give quality Music and Sound service to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'speciality_finishes',
+        desc: 'Speciality Finishes',
+        img: speciality_finishes,
+        checkout_desc: 'We are here to the give quality Speciality Finishes service to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'painting',
         status: "active",
         price: "Rs. 120.00",
@@ -504,40 +526,40 @@ export const services_painting = [
 export const services_cooking = [
     {
         serviceId: 41,
-        id: 'ca_for_business',
-        desc: 'CA For Business ',
-        img: ca_for_business,
-        checkout_desc: 'We are here to the give quality CA For Business service to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'catering',
+        desc: 'Catering',
+        img: catering,
+        checkout_desc: 'We are here to the give quality Catering service to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'cooking',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 42,
-        id: 'business_consultancy',
-        desc: 'Business Consultancy',
-        img: business_consultancy,
-        checkout_desc: 'We are here to the give quality Business Consultancy services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'healthy_and_nutritional',
+        desc: 'Health and Nutrition',
+        img: healthy_and_nutritional,
+        checkout_desc: 'We are here to the give quality Health and Nutrition services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'cooking',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 43,
-        id: 'tax_planning',
-        desc: 'Tax Planning',
-        img: tax_planning,
-        checkout_desc: 'We are here to the give quality Tax Planning services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'meal_delivery',
+        desc: 'Meal Delivery',
+        img: meal_delivery,
+        checkout_desc: 'We are here to the give quality Meal Delivery services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'cooking',
         status: "active",
         price: "Rs. 120.00",
     },
     {
         serviceId: 44,
-        id: 'GST',
-        desc: 'GST License and Registration',
-        img: GST,
-        checkout_desc: 'We are here to the give quality GST planning services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: 'personal_chef',
+        desc: 'Personal Chef',
+        img: personal_chef,
+        checkout_desc: 'We are here to the give quality Personal Chef services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'cooking',
         status: "active",
         price: "Rs. 120.00",
@@ -597,16 +619,16 @@ export const services_mechanic = [
         status: "active",
         price: "Rs. 120.00",
     },
-    {
-        serviceId: 50,
-        id: "water_heater_repair",
-        desc: 'Water Heater',
-        img: water_heater_repair,
-        checkout_desc: 'We are here to tend to the world class Water Heater repairing services to our costumers no matter what it takes. Thanks for Trusting us.',
-        category: 'mechanic',
-        status: "active",
-        price: "Rs. 120.00",
-    },
+    // {
+    //     serviceId: 50,
+    //     id: "water_heater_repair",
+    //     desc: 'Water Heater',
+    //     img: water_heater_repair,
+    //     checkout_desc: 'We are here to tend to the world class Water Heater repairing services to our costumers no matter what it takes. Thanks for Trusting us.',
+    //     category: 'mechanic',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // },
     {
         serviceId: 51,
         id: "dishwasher_repair",
@@ -617,24 +639,24 @@ export const services_mechanic = [
         status: "active",
         price: "Rs. 120.00",
     },
-    {
-        serviceId: 52,
-        id: "household_mechanic",
-        desc: 'Household Appliance',
-        img: household_appliances_repair,
-        checkout_desc: 'We are here to tend to the world class Household Appliance repairing services to our costumers no matter what it takes. Thanks for Trusting us.',
-        category: 'mechanic',
-        status: "active",
-        price: "Rs. 120.00",
-    }
+    // {
+    //     serviceId: 52,
+    //     id: "household_mechanic",
+    //     desc: 'Household Appliance',
+    //     img: household_appliances_repair,
+    //     checkout_desc: 'We are here to tend to the world class Household Appliance repairing services to our costumers no matter what it takes. Thanks for Trusting us.',
+    //     category: 'mechanic',
+    //     status: "active",
+    //     price: "Rs. 120.00",
+    // }
 ]
 export const services_gardening = [
     {
         serviceId: 53,
-        id: "weed_removing",
-        desc: 'Weed Removing',
-        img: ac_repair,
-        checkout_desc: 'We are here to tend to the world class Weed Removing services to our costumers no matter what it takes. Thanks for Trusting us.',
+        id: "edible_gardens",
+        desc: 'Edible Garden',
+        img: edible_gardens,
+        checkout_desc: 'We are here to tend to the world class Edible Garden services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'gardening',
         status: "active",
         price: "Rs. 120.00",
@@ -642,14 +664,53 @@ export const services_gardening = [
 
     {
         serviceId: 54,
+        id: "garden_installation",
+        desc: 'Garden Installation',
+        img: garden_installation,
+        checkout_desc: 'We are here to tend to the world class Garden Installation services to our costumers no matter what it takes. Thanks for Trusting us.',
+        category: 'gardening',
+        status: "active",
+        price: "Rs. 120.00",
+    },
+    {
+        serviceId: 54,
         id: "garden_maintainence",
         desc: 'Garden Maintainence',
-        img: microwave_repair,
+        img: garden_maintainence,
         checkout_desc: 'We are here to tend to the world class Garden Maintainence services to our costumers no matter what it takes. Thanks for Trusting us.',
         category: 'gardening',
         status: "active",
         price: "Rs. 120.00",
-
+    },
+    {
+        serviceId: 54,
+        id: "irrigation",
+        desc: 'Irrigation',
+        img: irrigation,
+        checkout_desc: 'We are here to tend to the world class Irrigation services to our costumers no matter what it takes. Thanks for Trusting us.',
+        category: 'gardening',
+        status: "active",
+        price: "Rs. 120.00",
+    },
+    {
+        serviceId: 54,
+        id: "landscape_lighting",
+        desc: 'Landscape Lighting',
+        img: landscape_lighting,
+        checkout_desc: 'We are here to tend to the world class Landscape Lighting services to our costumers no matter what it takes. Thanks for Trusting us.',
+        category: 'gardening',
+        status: "active",
+        price: "Rs. 120.00",
+    },
+    {
+        serviceId: 54,
+        id: "organic_gardening",
+        desc: 'Organic Gardening',
+        img: organic_gardening,
+        checkout_desc: 'We are here to tend to the world class Organic Gardening services to our costumers no matter what it takes. Thanks for Trusting us.',
+        category: 'gardening',
+        status: "active",
+        price: "Rs. 120.00",
     },
     
 ]

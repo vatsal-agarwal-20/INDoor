@@ -13,7 +13,7 @@ import { ServicesCategories } from './pages/Services/ServicesCategories';
 import { SignUp } from './container/SignIn-SignUp/Sign-Up/SignUp';
 import { SignIn } from './container/SignIn-SignUp/Sign-In/SignIn';
 
-import { Mechanic, Electrician, Plumbing, Cleaning, PestControl, Carpenter, Painting, Cooking } from './pages/Services/AllServices';
+import { Mechanic, Electrician, Plumbing, Cleaning, PestControl, Carpenter, Painting, Cooking, Gardening } from './pages/Services/AllServices';
 
 import { AcRepairCheckout, MicrowaveRepairCheckout, RefrigeratorRepairCheckout, WashingMachineRepairCheckout, HouseholdApplianceRepairCheckout, MixerGrinderRepairCheckout, DishwasherRepairCheckout } from './pages/service-details-pages/mechanic/Mechanic';
 
@@ -23,11 +23,12 @@ import { WaterTank, TabAndMixer, BasinAndSink, ToiletAndBathroom, WaterLeakage, 
 
 import { BathroomCleaning, CarpetCleaning, DustCleaning, FurnitureCleaning, HouseDeepCleaning, HousePainting, KitchenDeepCleaning, SweepingAndMopping } from './pages/service-details-pages/cleaning/Cleaning';
 
-import { HairSalonForMen, HairStylingForWomen, MakeupAndFaceCare, MassageAndTherapy, SkinCare } from './pages/service-details-pages/pest_control/PestAndControl';
+import { BedBugExtermination, GreenPestControl, MosquitoControl, RodentControl, TermiteControl } from './pages/service-details-pages/pest_control/PestAndControl';
 
-import { CAForBusiness, BusinessConsultancy, GST, TaxPlanning } from './pages/service-details-pages/cooking/Cooking';
-import { CompleteEventManagement, Decoration, EventPlanning, FoodAndCatering, MusicAndSound, Photography } from './pages/service-details-pages/painting/Painting';
-import { Coding, CookingAndBaking, FitnessAndGym, HealthAndDiet, MusicInstructor, TuitionForKids } from './pages/service-details-pages/carpenter/Carpenter';
+import { Catering, HealthAndNutrition, MealDelivery, PersonalChef } from './pages/service-details-pages/cooking/Cooking';
+import { CabinetPainting, ColorConsultation, ExteriorPainting, InteriorPainting, PowerWashing, SpecialityFinishes } from './pages/service-details-pages/painting/Painting';
+import { Cabinetry, Custom, FurnitureRestoration, Installation } from './pages/service-details-pages/carpenter/Carpenter';
+import { EdibleGardens, GardenMaintainence, GardenInstallation, Irrigation, LandscapeLighting, OrganicGardening } from './pages/service-details-pages/gardening/Gardening';
 
 // pages for admin dashboard
 
@@ -59,7 +60,7 @@ function App() {
         <Route path="/categories/carpenter" element={<Carpenter />} />
         <Route path="/categories/painting" element={<Painting />} />
         <Route path="/categories/cooking" element={<Cooking />} />
-        <Route path="/categories/gardening" element={<Cooking />} />
+        <Route path="/categories/gardening" element={<Gardening />} />
 
 
         {/* Link in components/services/services.jsx */}
@@ -99,35 +100,35 @@ function App() {
         <Route path="/categories/cleaning/furniture_cleaning" element={<FurnitureCleaning />} />
         <Route path="/categories/cleaning/sweeping_and_mopping" element={<SweepingAndMopping />} />
 
-        <Route path="/categories/pest_control/makeup_and_face_care" element={<MakeupAndFaceCare />} />
-        <Route path="/categories/pest_control/hairstyling_for_women" element={<HairStylingForWomen />} />
-        <Route path="/categories/pest_control/massage_and_therapy" element={<MassageAndTherapy />} />
-        <Route path="/categories/pest_control/hair_salon_for_men" element={<HairSalonForMen />} />
-        <Route path="/categories/pest_control/skin_care" element={<SkinCare />} />
+        <Route path="/categories/pest_control/bed_bug_extermination" element={<BedBugExtermination />} />
+        <Route path="/categories/pest_control/green_pest_control" element={<GreenPestControl />} />
+        <Route path="/categories/pest_control/mosquito_control" element={<MosquitoControl />} />
+        <Route path="/categories/pest_control/rodent_control" element={<RodentControl />} />
+        <Route path="/categories/pest_control/termite_control" element={<TermiteControl />} />
 
-        <Route path="/categories/cooking/ca_for_business" element={<CAForBusiness />} />
-        <Route path="/categories/cooking/business_consultancy" element={<BusinessConsultancy />} />
-        <Route path="/categories/cooking/tax_planning" element={<TaxPlanning />} />
-        <Route path="/categories/cooking/GST" element={<GST />} />
+        <Route path="/categories/cooking/catering" element={<Catering />} />
+        <Route path="/categories/cooking/healthy_and_nutritional" element={<HealthAndNutrition />} />
+        <Route path="/categories/cooking/meal_delivery" element={<MealDelivery />} />
+        <Route path="/categories/cooking/personal_chef" element={<PersonalChef />} />
 
-        <Route path="/categories/painting/complete_event_management" element={<CompleteEventManagement />} />
-        <Route path="/categories/painting/decoration" element={<Decoration />} />
-        <Route path="/categories/painting/photography" element={<Photography />} />
-        <Route path="/categories/painting/event_planning" element={<EventPlanning />} />
-        <Route path="/categories/painting/food_and_catering" element={<FoodAndCatering />} />
-        <Route path="/categories/painting/music_and_sound" element={<MusicAndSound />} />
+        <Route path="/categories/painting/cabinet_painting" element={<CabinetPainting />} />
+        <Route path="/categories/painting/color_consultation" element={<ColorConsultation />} />
+        <Route path="/categories/painting/exterior_painting" element={<ExteriorPainting />} />
+        <Route path="/categories/painting/interior_painting" element={<InteriorPainting />} />
+        <Route path="/categories/painting/power_washing" element={<PowerWashing />} />
+        <Route path="/categories/painting/speciality_finishes" element={<SpecialityFinishes />} />
 
-        <Route path="/categories/carpenter/coding" element={<Coding />} />
-        <Route path="/categories/carpenter/health_and_diet" element={<HealthAndDiet />} />
-        <Route path="/categories/carpenter/cooking_and_baking" element={<CookingAndBaking />} />
-        <Route path="/categories/carpenter/fitness_and_gym" element={<FitnessAndGym />} />
-        <Route path="/categories/carpenter/music_instructor" element={<MusicInstructor />} />
-        <Route path="/categories/carpenter/tuition_for_kids" element={<TuitionForKids />} />
+        <Route path="/categories/carpenter/cabinetry" element={<Cabinetry />} />
+        <Route path="/categories/carpenter/custom" element={<Custom />} />
+        <Route path="/categories/carpenter/furniture_restoration" element={<FurnitureRestoration />} />
+        <Route path="/categories/carpenter/installation" element={<Installation />} />
 
-        <Route path="/categories/gardening/ca_for_business" element={<CAForBusiness />} />
-        <Route path="/categories/gardening/business_consultancy" element={<BusinessConsultancy />} />
-        <Route path="/categories/gardening/tax_planning" element={<TaxPlanning />} />
-        <Route path="/categories/gardening/GST" element={<GST />} />
+        <Route path="/categories/gardening/edible_gardens" element={<EdibleGardens />} />
+        <Route path="/categories/gardening/garden_installation" element={<GardenInstallation />} />
+        <Route path="/categories/gardening/garden_maintainence" element={<GardenMaintainence />} />
+        <Route path="/categories/gardening/irrigation" element={<Irrigation />} />
+        <Route path="/categories/gardening/landscape_lighting" element={<LandscapeLighting />} />
+        <Route path="/categories/gardening/organic_gardening" element={<OrganicGardening />} />
 
         <Route path="/RegisterAsProfessional" element={<RegisterAsProfessional />} />
         <Route path="/ContactUs" element={<ContactUs />} />
