@@ -132,7 +132,7 @@ export const SignUp = () => {
   return (
     <section>
       <form className="SignInSignUpForm" onSubmit={handleSubmit}>
-        <div className="SignInSignUpTitle">Sign In</div>
+        <div className="SignInSignUpTitle">Sign Up</div>
         {inputs.map((input) => (
           <FormInput
             key={input.id}

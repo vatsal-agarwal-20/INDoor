@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <div className={headerStyles.container}>
       <div className={headerStyles.title}>
-        <h1>Services at the Doorstep</h1>
+        <h1>Services at your Doorstep</h1>
         <h5>We Focus on Customer Satisfaction</h5>
       </div>
 
