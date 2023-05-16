@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactFormStyles from "./ContactForm.module.css";
-import axios from "axios";
+
 export const ContactForm = () => {
   const form = useRef();
 
@@ -11,15 +11,18 @@ export const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_1faugds",
-        "template_x2b4vud",
+        "service_kaopndu",
+        "template_19fxjix",
+        
         form.current,
-        "Q_s4xBfFb3XW36xQA"
+        "MFA2FSja7-vLcyEHM"
       )
+
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          console.log("Message sent");
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
