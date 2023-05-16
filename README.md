@@ -20,5 +20,5 @@
   </li>
 </ol>
 
-<h1> Website Snapshots</h1>
-<img src=
+![image](https://github.com/vatsal-agarwal-20/INDoor/assets/80644981/d690e6fe-177c-4e22-ba7a-f5b4f04372a2)
+
