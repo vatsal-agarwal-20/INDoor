@@ -15,7 +15,7 @@ import { SignIn } from './container/SignIn-SignUp/Sign-In/SignIn';
 
 import { Mechanic, Electrician, Plumbing, Cleaning, PestControl, Carpenter, Painting, Cooking, Gardening } from './pages/Services/AllServices';
 
-import { AcRepairCheckout, MicrowaveRepairCheckout, RefrigeratorRepairCheckout, WashingMachineRepairCheckout, HouseholdApplianceRepairCheckout, MixerGrinderRepairCheckout, DishwasherRepairCheckout } from './pages/service-details-pages/mechanic/Mechanic';
+import { AcRepairCheckout, MicrowaveRepairCheckout, RefrigeratorRepairCheckout, WashingMachineRepairCheckout, MixerGrinderRepairCheckout, DishwasherRepairCheckout } from './pages/service-details-pages/mechanic/Mechanic';
 
 import { Fan, Switchboard, Fuse, NewInternalWiring, InverterServicing, LightFitting, CCTVCamera, Doorbell } from './pages/service-details-pages/electrician/ElectricianCheckout'
 
@@ -68,10 +68,8 @@ function App() {
         <Route path="/categories/mechanic/microwave_repair" element={<MicrowaveRepairCheckout />} />
         <Route path="/categories/mechanic/refrigerator_repair" element={<RefrigeratorRepairCheckout />} />
         <Route path="/categories/mechanic/washing_machine_repair" element={<WashingMachineRepairCheckout />} />
-        <Route path="/categories/mechanic/ac_repair" element={<HouseholdApplianceRepairCheckout />} />
         <Route path="/categories/mechanic/mixer_grinder_repair" element={<MixerGrinderRepairCheckout />} />
         <Route path="/categories/mechanic/dishwasher_repair" element={<DishwasherRepairCheckout />} />
-        <Route path="/categories/mechanic/household_appliance_repair" element={< HouseholdApplianceRepairCheckout />} />
 
 
         <Route path="/categories/electrician/fan" element={<Fan />} />

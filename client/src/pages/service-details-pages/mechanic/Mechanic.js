@@ -42,26 +42,10 @@ export const WashingMachineRepairCheckout = () => {
     )
 }
 
-export const WaterHeaterRepairCheckout = () => {
-    return (
-        <>
-            <ServicesCheckout title={services_mechanic[5].desc} desc={services_mechanic[5].checkout_desc} url_title="ac_repair_checkout" img={services_mechanic[5].img} category="Appliance Repair" />
-        </>
-    )
-}
-
 export const DishwasherRepairCheckout = () => {
     return (
         <>
-            <ServicesCheckout title={services_mechanic[6].desc} desc={services_mechanic[6].checkout_desc} url_title="ac_repair_checkout" img={services_mechanic[6].img} category="Appliance Repair" />
-        </>
-    )
-}
-
-export const HouseholdApplianceRepairCheckout = () => {
-    return (
-        <>
-            <ServicesCheckout title={services_mechanic[7].desc} desc={services_mechanic[7].checkout_desc} url_title="ac_repair_checkout" img={services_mechanic[7].img} category="Appliance Repair" />
+            <ServicesCheckout title={services_mechanic[5].desc} desc={services_mechanic[5].checkout_desc} url_title="ac_repair_checkout" img={services_mechanic[5].img} category="Appliance Repair" />
         </>
     )
 }
